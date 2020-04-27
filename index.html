@@ -1,0 +1,236 @@
+<html>
+    <head>
+        <script
+            src="https://code.jquery.com/jquery-3.5.0.min.js"
+            integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+            crossorigin="anonymous">
+        </script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel='stylesheet' href="style.css">
+        <title>My website</title>
+    </head>
+    <body>
+        <!--Navbar start-->
+        <nav>
+            <div class="nav-wrapper black">
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="nav-links right hide-on-med-and-down">
+                    <li><a href="sass.html">Welcome</a></li>
+                    <li><a href="badges.html">Disney World</a></li>
+                    <li><a href="collapsible.html">Disney princess</a></li>
+                    <li><a href="mobile.html">Disney Cartoons</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--Sidenav start-->
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="sass.html">Sass</a></li>
+            <li><a href="badges.html">Components</a></li>
+            <li><a href="collapsible.html">Javascript</a></li>
+            <li><a href="mobile.html">Mobile</a></li>
+        </ul>
+        <script>
+            $(document).ready(function(){
+                $('.sidenav').sidenav();
+            });
+        </script>
+        <!--Sidenav end-->
+        <!--Navbar end-->
+        <!--Welcome-->
+        <div class="about-me">
+            <img src="pri.png" class="shrine">
+            <img src = "p.png" class = "p-shrine">
+            <h3 class="about-me-text center">Hi There!<br>Welcome To Disney World</h3>
+        </div>
+        <!--Disney World-->
+        <div class = "intern">
+            <h3 class="disney-header white-text">Walt Disney World</h3>
+            <!--Grid-->
+            <div class="row">
+                <div class="col s12 m6 l6">
+                    <div class="first-row card-panel black">
+                        <h4 class="white-text center">Disney World</h4>
+                        <ul class="disney-desk white-text">
+                            <li><strong>Founded in : </strong>1 October 1971</li>
+                            <li><strong>Founders : </strong>Walt Disney , Roy Disney </li>
+                            <li><strong>Website : </strong><a href = "https://disneyworld.disney.go.com/">Visit Disney Offical Website</a></li>
+                            <li><strong>About It :</strong><p class="i">The Walt Disney World Resort, also called Walt Disney World and Disney World, is an entertainment complex in Bay Lake and Lake Buena Vista, Florida, in the United States, near the cities Orlando and Kissimmee.
+                            Opened on October 1, 1971, the resort is owned and operated by Disney Parks, Experiences and Products, a division of The Walt Disney Company. It was first operated by Walt Disney World Company.
+                            </p></strong></li>
+                            <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Learn More</a>
+                        </ul>
+                        <div id="modal1" class="modal">
+                            <div class="modal-content">
+                                <h4>More About Disney World</h4>
+                                <p>The resort comprises four theme parks (consisting of Magic Kingdom, Epcot, Disney's Hollywood Studios, and Disney's Animal Kingdom), two water parks, 27 themed resort hotels, nine non-Disney hotels, several golf courses, 
+                                a camping resort, and other entertainment venues, including the outdoor shopping center Disney Springs.
+                                In 2018, Walt Disney World was the most visited vacation resort in the world, with an average annual attendance of more than 58 million.[6] The resort is the flagship destination of Disney's worldwide corporate enterprise and has become 
+                                a popular staple in American culture.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                            </div>
+                        </div>
+                    </div>
+                    <script>$(document).ready(function(){
+                                $('.modal').modal();
+                            });
+                    </script>
+                </div>
+                <div class="col s12 m6 l6">
+                    <img src="cas.png" class="castle">
+                </div>
+            </div>
+        </div>
+        <!--Disney princess-->
+        <div class="disney-princess">
+            <h4 class="disney-p white-text">Disney Princess</h4>
+            <div class="divider"></div>
+            <div class="section">
+                <img src="mermaid.jpg"class ="image">
+                <ul class="disney-desk white-text">
+                    <li><h5 class="white-text centre">1.Little Mermaid</h5></>
+                    <li><strong>Initial release:</strong>13 November 1989 (USA)</li>
+                    <li><strong>Website: </strong><a href="https://www.hotstar.com/in/movies/the-little-mermaid/1660010306/watch?utm_source=gwa">Watch Little Mermaid</a></li>
+                    <li><p class="white-text">A beautiful mermaid called Ariel
+                    makes a deal with Ursula, a sea witch,to meet Eric, a 
+                    human prince she falls in love with.
+                    However, unaware of Ursula's evil plans,
+                    Ariel ends up in trouble.</p></li>
+                </ul>
+            </div>
+        </div>
+            <div class="divider"></div>
+            <div class="section">
+                <div class="disney-princes">
+                    <img src="Cinderella.jpg" class=image>
+                    <ul class="disney-desk white-text">
+                        <li><h5 class="white-text centre">2.Cinderella</h5></li>
+                        <li><strong>Initial release:</strong>22 February 1950 (New York)</li>
+                        <li><strong>Website: </strong><a href="https://www.hotstar.com/in/movies/cinderella/1260018163/watch?utm_source=gwa">Watch Cinderella</a></li>
+                        <li><p class="white-text">When Cinderella's dream of attending the Royal Ball and meeting the Grand
+                        Duke is hindered by her cruel stepmother, she gets some astounding help from her Fairy Godmother.</p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="section">
+                <div class="disney-princess">
+                    <img src="sleeping.jpg" class="image">
+                    <ul class="disney-desk white-text">
+                        <li><h5 class="white-text centre">3.Sleeping Beauty</h5></li>
+                        <li><strong>Initial release:</strong> 29 January 1959 (USA)</li>
+                        <li><strong>Website: </strong><a href="https://www.hotstar.com/in/movies/sleeping-beauty/1260018161/watch?utm_source=search&utm_medium=Aw&utm_campaign=00_mindshareindia2-Hotstar-EM-Brand_SVOD_Bnd&utm_term=Hotstar">Watch Sleeping Beauty</a></li>
+                        <li><p class="white-text">A witch curses a princess that she will die on her 16th birthday. However, a fairy alters the curse so that the princess goes
+                        into a deep sleep and can only be awakened by a prince's magical kiss.</p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="section">
+                <div class="disney-princes">
+                    <img src="snow white.jpg" class="image">
+                    <ul class="disney-desk white-text">
+                        <li><h5 class="white-text centre">4.Snow White</h5></li>
+                        <li><strong>Initial release:</strong>10 February 1965 (India)</li>
+                        <li><strong>Website: </strong><a href="https://www.hotstar.com/in/movies/snow-white-and-the-seven-dwarfs/1260017758/watch?utm_source=gwa">Watch Snow White</a></li>
+                        <li><p class="white-text">When Snow White, a princess, is exiled by her stepmother, an evil queen who wants to kill her, she runs into a forest.
+                        Soon, she is rescued by seven dwarfs who form a friendship with her.</p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="section">
+                <div class = "disney-princess">
+                    <img src="beauty.jpg" class="image">
+                    <ul class="disney-desk white-text">
+                        <li><h5 class="white-text centre">5.Beauty and Beast</h5></li>
+                        <li><strong>Initial release:</strong> 29 January 1959 (USA)</li>
+                        <li><strong>Website: </strong><a href="https://www.hotstar.com/in/movies/beauty-and-the-beast/1260018151/watch?utm_source=search&utm_medium=Aw&utm_campaign=00_mindshareindia2-Hotstar-EM-Brand_SVOD_Bnd&utm_term=Hotstar">Watch Beauty And Beast</a></li>
+                        <p class="white-text">>Belle, a beautiful young woman, agrees to live with the Beast in exchange for the return of her abducted father. Soon, Belle discovers that her
+                        hideous captor is actually an enchanted prince.</p>
+                    </ul>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="section">
+                <div class="disney-princes">
+                    <img src="Aladdin.jpg" class="image">
+                    <ul class="disney-desk white-text">
+                        <li><h5 class="white-text centre">6.Aladdin</h5></li>
+                        <li><strong>Initial release:</strong>25 November 1992 (USA)</li>
+                        <li><strong>Website: </strong><a href="https://www.hotstar.com/in/movies/aladdin/1660000031/watch?utm_source=gwa">Watch Aladdin</a></li>
+                        <li><p class="white-text">Aladdin, a common thief, falls in love with Princess Jasmine, but cannot marry her as he is not a prince. Jafar, a royal vizier with a hidden agenda,
+                        enlists Aladdin's help to retrieve a magical lamp.</p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="section">
+                <div class="disney-princess">
+                    <ul class="disney-desk white-text">
+                        <li> <img src="tangled.jpg" class="image"></li>
+                        <li><h5 class="white-text">7.Tangled</h5></li>
+                        <li><strong>Initial release:</strong>21 January 2011 (India)</li>
+                        <li><strong>Website: </strong><a href="https://www.hotstar.com/in/movies/tangled/1660010196/watch?utm_source=search&utm_medium=Aw&utm_campaign=00_mindshareindia2-Hotstar-EM-Brand_SVOD_Bnd&utm_term=Hotstar">Watch Tangled</a></li>
+                        <li><p class="white-text">Rapunzel, an innocent, young girl, is locked up by her overly protective mother. Her wish to escape into the world outside finally comes true 
+                        when she meets the good-hearted thief, Flynn.</p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="section">
+                <div class="disney-princes">
+                    <ul class="disney-desk white-text">
+                        <li> <img src="Mulan.jpg" class="image"></li>
+                        <li><h5 class="white-text">8.Mulan</h5></li>
+                        <li><strong>Initial release:</strong> 5 June 1998 (USA)</li>
+                        <li><strong>Website: </strong><a href="https://www.hotstar.com/in/movies/mulan/1660010444/watch?utm_source=gwa">Watch Mulan</a></li>
+                        <li><p class="white-text">Young Mulan is distraught to learn that her weak father must join the army to fight the invading Huns. Unwilling to endanger his life, 
+                        she disguises herself as a man and joins the army in his place.</p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="section">
+                <div class="disney-princess">
+                    <ul class="disney-desk white-text">
+                        <li> <img src="frog.png" class="image"></li>
+                        <li><h5 class="white-text">9.The Princess and the Frog</h5></li>
+                        <li><strong>Initial release:</strong>26 February 2010 (India)</li>
+                        <li><strong>Website: </strong><a href="https://www.hotstar.com/in/movies/the-princess-and-the-frog/1260018350/watch">Watch The Princess and the Frog</a></li>
+                        <li><p class="white-text">A young waitress, Tiana, embarks on a hilarious adventure after her 
+                        fateful kiss with a frog prince who cannot wait to be human again.</p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="section">
+                <div class="disney-princes">
+                    <ul class="disney-desk white-text">
+                        <li> <img src="brave.jpg" class="image"></li>
+                        <li><h5 class="white-text">10.Brave</h5></li>
+                        <li><strong>Initial release:</strong>22 June 2012 (India)</li>
+                        <li><strong>Website: </strong><a href="https://www.hotstar.com/in/movies/brave/1260018157/watch?utm_source=gwa">Watch Brave</a></li>
+                        <li><p class="white-text">Merida, an independent archer, disobeys an ancient custom which unleashes a dark force. After meeting an elderly witch,
+                        as she journeys to reverse the curse, she discovers the real meaning of bravery.</p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="section">
+                <div class="disney-princess">
+                    <ul class="disney-desk white-text">
+                        <li> <img src="p.jpg" class="image"></li>
+                        <li><h5 class="white-text">11.Pocahontas</h5></li>
+                        <li><strong>Initial release:</strong> 23 June 1995 (USA)</li>
+                        <li><strong>Website: </strong><a href="https://www.hotstar.com/in/movies/pocahontas/1260018346/watch?utm_source=gwa">Watch Pocahontas</a></li>
+                        <li><p class="white-text">Chief Powhatan has decided to get his daughter Pocahontas married to New World's greatest and bravest warrior. 
+                        However, Pocahontas dreams of marrying a prince named Smith.</p></li>
+                    </ul>
+                </div>
+            </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+        </script>
+    </body>
+</html>
