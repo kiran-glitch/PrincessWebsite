@@ -1,0 +1,102 @@
+.about-me {
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(to bottom, rgb(41, 109, 211), black);
+}
+
+.shrine {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 80vh;
+    bottom: 0;
+}
+
+.about-me-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 36px;
+}
+
+.nav-links {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.p-shrine {
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+    bottom: 0;
+    left: 10%;
+}
+
+.intern {
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(black, rgb(149, 205, 221));
+}
+
+.disney-header {
+    position: absolute;
+    left: 50%;
+    margin-top: 2%;
+    transform: translateX(-50%);
+}
+
+.first-row {
+    margin-top: 17%;
+}
+
+.pic {
+    position: absolute;
+}
+
+.disney-desk {
+    list-style: null;
+}
+
+.castle {
+    width: 55vw;
+    left: 10%;
+    margin-top: 17%;
+}
+
+.disney-princess {
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0, 153, 255), rgb(226, 60, 124));
+}
+
+.disney-p {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: medium;
+}
+
+.image {
+    position: relative;
+    width: 30%;
+    height: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5%;
+}
+
+.disney-princes {
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(rgb(221, 36, 67), rgb(201, 56, 169));
+}
+
+.image-s {
+    position: absolute;
+}
+
+.i {
+    font-size: small;
+}
